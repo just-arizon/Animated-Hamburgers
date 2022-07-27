@@ -5,8 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated-Hamburgers</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hello Everyone!</h1>
+    <h1>Animated Harmburgers</h1>
+
+    <div class="container">
+        <div class="box">
+            <div class="box-box btn1">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn2">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn3">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn4">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn5">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn6">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn7">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn8">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn9">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn10">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn11">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-box btn12">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    
+        const allBtn = document.querySelectorAll('.box-box');
+        
+        allBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                console.log("hello");
+                
+                btn.classList.toggle('active');
+            })
+        })
+        
+            </script>
 </body>
 </html>
